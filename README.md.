@@ -1,0 +1,16 @@
+# Smart Study Planner
+
+Smart Study Planner is a web app that uses the Gemini API to create a
+personalized one-week study plan for any subject.
+
+### What it does
+
+- Takes a subject, topics, and available hours.
+- Sends a prompt to the Gemini API from a Flask backend.
+- Shows a structured, day-wise study plan in the frontend (Vite + React).
+
+### Tech stack
+
+- Frontend: Vite + React
+- Backend: Python + Flask
+- GenAI: Gemini API (text generation)
